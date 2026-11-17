@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Header / Branding -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLACK WINDOW EMULATOR"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:letterSpacing="0.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="v1.1 INFINITY | POWER BEYOND LIMITS."
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Engine Status Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:orientation="vertical"
+        print.padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENGINE &amp; HARDWARE STATUS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Host Architecture: ARM64 / Snapdragon Profile&#10;• Graphics Backend: Vulkan 1.3 / Turnip Driver Active&#10;• Storage Sandbox: Mounted (/sdcard/BlackWindow)&#10;• Virtualization Mode: Android AOSP Sandbox"
+            android:textColor="#CCCCCC"
+            android:textSize="12sp"
+            android:lineSpacingExtra="4dp"/>
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/btnBootAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOT ANDROID VIRTUAL INSTANCE"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnPCGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PC GAME COMPATIBILITY CONTAINER"
+        android:backgroundTint="#222222"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnOptimizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLY EXTREME PERFORMANCE PROFILE"
+        android:backgroundTint="#222222"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+</LinearLayout>
+      
